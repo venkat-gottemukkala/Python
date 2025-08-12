@@ -20,5 +20,8 @@ jobs:
        python --version 
        pip --version
    - name: install dependencies
-     run: pip install -r path/to/requirements.txt
+     run: pip install
+
+   - name: print Python
+     run: echo 'python'
       
